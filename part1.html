@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #one{
+        height: 100vh;
+        /* border: 2px solid black; */
+        background-image: url("https://images.pexels.com/photos/6422928/pexels-photo-6422928.jpeg");
+        background-size: cover;
+    }
+    #box1{
+        height: 12%;
+            /* border: 2px solid black; */
+            background-color: white;
+            background-position: center;
+    }
+    #b1{
+        height: 60%;
+        width: 20%;
+            /* border: 2px solid black; */
+            margin: 20px;
+            float: left;
+    }
+    #box2{
+         height: 60%;
+        width: 70%;
+            /* border: 2px solid black; */
+            margin: 20px;
+            float: right;
+    }
+    .b2{
+        height: 60%;
+        width: 16%;
+        /* border: 2px solid black; */
+        float: left;
+         margin: 10px;
+         margin-left: 25px;
+    }
+    #p1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .p2{
+        font-size: larger;
+       margin-left: 15px ;
+       
+    }#u1{
+        font-size: 16px;
+        border-radius: 10px ;
+       
+        font-weight: 400;
+        background-color: black;
+        color: white;
+        padding: 12px 10px;
+        margin-top: -10px;
+
+
+    }
+    #box3{
+             height: 8%;
+         /* border: 2px solid white; */
+         width: 10%;
+         margin-top: 89px;
+         margin-left: 70px;
+    }
+    #box4{
+        height: 30%;
+         /* border: 2px solid black; */
+         width: 30%;
+         margin-left: 70px;
+         margin-top: 30px;
+         color: white;
+    }
+    #p3{
+      font-size: 40px;
+      font-weight: bolder;
+    }
+    #p4{
+        background-color: white;
+        font-weight: 700;
+        padding: 10px;
+    }
+    #box5{
+             height: 8%;
+         /* border: 2px solid black; */
+         width: 10%;
+         margin-left: 70px;
+         margin-top: 100px;
+    }
+    #p5{
+       font-size: 90px;
+       color: white;
+    }
+    #two{
+        height: 100vh;
+        /* border: 2px solid black; */
+    }
+    #box6{
+        height: 70%;
+        /* border: 2px solid black; */
+        width: 25%;
+        margin-left: 100px;
+        margin-top: 100px;
+        background-image: url("https://media.istockphoto.com/id/481460664/photo/luxury-dining-room-interior.jpg?s=2048x2048&w=is&k=20&c=ySLy5nIsRoKyM5yeXL4eMyJ7wL9zOa8JHHd6pjI7CGo=");
+        background-position: center;
+        background-size: cover;
+    }
+    #box7{
+        height: 5%;
+        /* border: 2px solid black; */
+        width: 10%;
+        margin-top: -510px;
+        margin-left: 495px;
+    }
+    #box8{
+        height: 30%;
+        /* border: 2px solid black; */
+        width: 30%;
+         margin-left: 495px;
+         margin-top: 10px;
+    }
+    #p6{
+        color: black;
+        font-size: 40px;
+        font-weight:900 ;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    #box9{
+        height: 8%;
+         border: 2px solid white;
+         margin-top: 10px;
+         width: 40%;
+         margin-left: 495px;
+         background-color: aliceblue;
+    }
+    #p7{
+        font-weight: bolder;
+        color: orange;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #box10{
+        height: 28%;
+         border: 2px solid white;
+         margin-top: 10px;
+         width: 40%;
+         margin-left: 495px;
+         background-color: aliceblue;
+          float: left;
+    }
+    .p8{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 20px;
+        margin-top: 10px
+        ;
+    }
+    #box11{
+         height: 8%;
+         border: 2px solid white;
+         margin-top: 10px;
+         width: 40%;
+         margin-left: 495px;
+         background-color: aliceblue;
+         float: left;
+    }
+    #box12{ 
+        height: 70%;
+          border: 2px solid rgb(246, 228, 228);
+          float: right;
+          width: 25%;
+          margin-top: -500px;
+          margin-right: 20px;
+
+    }
+    .b8{
+        height: 20%;
+        /* border: 2px solid black; */
+        margin: 20px;
+    }
+    #b9{
+        height: 85%;
+          /* border: 2px solid black; */
+          width: 30%;
+          margin: 10px;
+          background-image: url("https://images.pexels.com/photos/8831810/pexels-photo-8831810.jpeg");
+          background-size: cover;
+    }
+    #b10{
+        height: 85%;
+          /* border: 2px solid black; */
+          width: 30%;
+          margin: 10px;
+          background-image: url("https://images.pexels.com/photos/8817668/pexels-photo-8817668.jpeg");
+          background-size: cover;
+    }
+    #b11{
+        height: 85%;
+          /* border: 2px solid black; */
+          width: 30%;
+          margin: 10px;
+          background-image: url("https://images.pexels.com/photos/8832755/pexels-photo-8832755.jpeg");
+          background-size: cover;
+    }
+    #b12{
+        height: 85%;
+          /* border: 2px solid black; */
+          width: 30%;
+          margin: 10px;
+          background-image: url("https://images.pexels.com/photos/8832724/pexels-photo-8832724.jpeg");
+          background-size: cover;
+    }
+    .p11{
+        height: 40%;
+        /* border: 2px solid black; */
+        width: 30%;
+        margin-left: 130px;
+        margin-top: -80px;
+        font-weight: bolder;
+        font-size: 24px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    .p12{
+        height: 30%;
+        /* border: 2px solid black; */
+        width: 60%;
+        margin-left: 130px;
+        color: grey;
+        margin-top: -5px;
+       
+
+        
+    }
+    #three{
+        height: 100vh;
+        /* border: 2px solid black; */
+        background-color: azure;
+      
+        
+    }
+    #d1{
+        height: 50%;
+        border: 2px solid black;
+        background-image: url("https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg");
+        background-size: cover;
+        background-color: bisque;
+       
+       
+
+    }
+    #t1{
+       height: 5%;
+        /* border: 2px solid black; */
+        width: 10%;
+        
+        margin-left: 665px;
+        margin-top: 100px;
+        font-size: large;
+
+    }
+    #c0{
+        font-size: 25px;
+        font-weight: bolder;
+        color: rgb(218, 6, 6);
+        
+    }
+    #t2{
+        height: 20%;
+        /* border: 2px solid black; */
+        width: 50%;
+         margin-left: 350px;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-weight: 500;margin-top: 8px;
+         
+
+    }
+    #p9{
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+    #d2{
+        height: 50%;
+        /* border: 2px solid black; */
+        width: 60%;
+        margin-left: 300px;
+        margin-top: -125px;
+        border-radius: 20px;
+        background-image: url("https://media.istockphoto.com/id/1256466090/photo/modern-style-bedroom.jpg?s=2048x2048&w=is&k=20&c=3s80CtOWTAdiFx_gNkrcgOS0T8DVaTqIw9G6CGCGorQ=");
+        background-size: cover;
+        background-position: center;
+
+    }.c1{
+        height: 10%;
+        border: 2px solid rgb(188, 188, 188);
+        width: 15%;
+        float: left;
+        margin: 30px;
+        margin-left: 200px;
+        background-color: rgb(244, 224, 217);
+        border-radius: 10px;
+        padding-left: 25px;
+
+    }
+    .c2{
+        height: 70%;
+        /* border: 2px solid black; */
+        width: 20%;
+        margin: 10px;
+        color: orange;
+        font-size: 30px;
+        font-weight: 900;
+        padding-top: 10px; 
+
+
+    }
+    .c3{
+        margin-top: -36px;
+        margin-left: 60px;
+        color: black;
+        font-size: 16px;
+        line-height: 20px;
+        /* background-color: blueviolet; */
+        width: 250%;
+
+    }
+    #four{
+        height: 100vh;
+        /* border: 2px solid black; */
+                                                                                                                                                                                                                                                                                                         
+    }
+   
+    #f1{
+        height: 5%;
+        
+        /* border: 2px solid black; */
+        width: 10%;
+        margin-left: 30px;
+        margin-top: 10px;
+        color: red;
+        padding: 10px;
+        font-weight: 800;
+       
+    }
+    #f2{
+        height: 15%;
+         /* border: 2px solid black; */
+         width: 30%;
+         margin-left: 30px;
+         font-size: 32px;
+         font-weight: 900;
+         padding: 10px;
+         margin-top: 10px;
+        
+    }
+    .f3{
+        height: 8%;
+        /* border: 2px solid black; */
+        width: 15%;
+        float: right;
+      
+        margin-top: -58px;
+        margin-right: 30px;
+        font-size: 25px;
+        padding: 15px;
+        padding-left: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+
+        
+    }
+   #f4{
+    height: 60%;
+        border: 2px solid rgb(249, 237, 237);
+        width: 30%;
+        margin: 25px;
+        float: left;
+
+   }
+   .f5{
+    height: 17%;
+        border: 2px solid rgb(233, 219, 219);
+        margin: 10px;
+        font-size: 20px;
+        padding: 20px;
+        padding-top: 25px;
+        color: rgb(159, 120, 120);
+        
+   }
+   .f6{
+    height: 80%;
+        /* border: 2px solid black; */
+        width: 40%;
+        margin-left: 280px;
+        margin-top: -20px;
+        padding-left: 20px;
+        font-weight: 900;
+        font-size: 30px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color: black;
+       margin-top: -28px;
+
+
+   }
+   #f7{
+    height: 70%;
+        /* border: 2px solid black; */
+        width: 40%;
+        margin-left: 520px;
+        margin-top: 30px;
+        background-image: url("https://images.pexels.com/photos/15575713/pexels-photo-15575713.png");
+        background-position: center;
+        background-size: cover;
+
+   }
+   #f8{
+    height: 70%;
+    width: 25%;
+        /* border: 2px solid black; */
+        float: right;
+        margin-top: -510px;
+
+   }
+   #f9{
+    height: 10%;
+        /* border: 2px solid black; */
+        font-size: 24px;
+        padding: 10px;
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 60px;
+
+   }
+   #f10{
+    height: 70%;
+        /* border: 2px solid black; */
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 60px;
+
+        
+
+   }
+   .a{
+    background-color: orange;
+   }
+   #u2{
+     font-size: 16px;
+        border-radius: 20px ;
+       
+        font-weight: 400;
+        background-color: black;
+        color: white;
+        padding: 12px 10px;
+        margin-top: 50px;
+        margin-left: 60px;
+
+   }
+   
+   </style>
+</head>
+<body>
+    <section id="one">
+        <div id="box1">
+            <div id="b1"><p id="p1">VILLA</p></div>
+            <div id="box2"><div></div>
+            <div class="b2"><p class="p2"><span style="color: orange;">Home</span></p></div>
+            <div class="b2"><p class="p2">Properties</p></div>
+            <div class="b2"><p class="p2"> Property Details</p></div>
+            <div class="b2"><p class="p2">Contact Us</p></div>
+            <div class="b2"><p class="p2"><button id="u1">Schedule a visit</button></p></div>
+        </div>
+        </div>
+        <div></div>
+        <div id="box3"><p id="p4">Toranto,<span style="color: orange;">Canada</span></p></div>
+        <div id="box4"><p id="p3">HURRY! <br> GET THE BEST <br> VILLA FOR YOU...</p></div>
+        <div id="box5"><p id="p5"> <span style="color: orange;">.</span> . .</p></div>
+    </section>
+    <section id="two">
+         <div id="box6"></div>
+         <div id="box7"><span style="color: rgb(255, 77, 0); font-weight: bold;"> | FEATURED</span></div>
+         <div id="box8"><p id="p6">Best <br> Appartment & <br> Sea View</p></div>
+         <div id="box9"><p id="p7">Best Useful Links ?</p></div>
+         <div id="box10"><p class="p8">Get <strong>the best villa</strong> website template in HTML CSS <br>and Bootstrap for your business, TemplateMo <br> provides you the <span style="color: blue;"> best free css templates</span> in the <br> world. Please tell your friends about it. <br><br><br><br>How does this work ?</p></div>
+         <div id="box11"><p class="p8">Why is Villa Agency the best ?</p></div>
+         <div id="box12">
+         <div class="b8"><div id="b9"></div><div class="p11">250 m2</div><div class="p12">Total Flat Space</div></div>
+         <div class="b8"><div id="b10"></div><div  class="p11">Contract</div><div class="p12">Contract Ready</div></div>
+         <div class="b8"><div id="b11"></div><div  class="p11">Payment</div><div class="p12">Payment Process</div></div>
+         <div class="b8"><div id="b12"></div><div  class="p11">Safety</div><div class="p12">24/7 Under Control</div></div>
+         </div>
+        </section>
+        <section id="three">
+            <div id="d1">
+            <div id="t1"><span id="c0"> | Video View</span></div>
+            <div id="t2"> <p id="p9">Get Closer view & <br> Different Feeling</p></div>
+            </div>
+            <div id="d2"></div>
+            <div class="c1"><div class="c2">34  <p class="c3">Buildings <br>Finished Now</p></div></div>
+            <div class="c1"><div class="c2">12 <p class="c3">Years <br> Experience</p></div></div>
+            <div class="c1"><div class="c2">24 <p class="c3">Awards <br>Won 2023</p></div></div>
+        </section>
+        <section id="four">
+            
+            
+            <div id="f1">| BEST DEAL</div>
+            <div id="f2">Find Your Best Deal <br> Right Now!</div>
+            <div class="f3">Penthouse</div>
+            <div class="f3"> Villa House</div>
+            <div class="f3 a">Appartment</div>
+            <div id="f4">
+                <div class="f5">Total Flat Space <div class="f6">185 m2</div></div>
+                <div class="f5"> Floor number  <div class="f6">26th</div></div>
+                <div class="f5">Number of rooms  <div class="f6">4</div></div>
+                <div class="f5">Parking Available  <div class="f6">Yes</div></div>
+                <div class="f5">Payment Process  <div class="f6">Bank</div></div>
+            </div>
+            <div id="f7"></div>
+            <div id="f8"><div id="f9">Extra  info About Property</div>
+            <div id="f10"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed delectus recusandae soluta hic debitis esse, vitae saepe accusantium porro provident quisquam. Facilis veritatis iste tempora quis commodi consequuntur sunt voluptatem? <br><br><br> Fugiat dolore nostrum possimus, repudiandae eos corrupti et fugit inventore id porro sunt quo, odio asperiores laboriosam, suscipit doloribus deleniti sequi repellat voluptatum veniam nobis molestias vel dicta est! Culpa, repellat deleniti voluptatibus sed sint, laudantium magni repudiandae inventore similique quisquam, aut sapiente vero dolores doloribus consequatur laboriosam quae temporibus tempore. Unde maiores ad consequuntur! Fugiat quos reiciendis nesciunt rerum.</p></div>
+            <button id="u2">Schedule a visit</button>
+    </div>
+            
+        </section>
+</body>
+</html>
