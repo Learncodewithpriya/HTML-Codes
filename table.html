@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+        
+      button{
+        margin-left: 500px;
+        background-color:white;
+      }
+      form{
+        height: 100vh;
+        width: 80%;
+        border-radius: 10px;
+        margin:  0 auto;
+      }
+    </style>
+</head>
+  
+<body style="background-color: rgb(250, 178, 224);">
+   
+    <form  style="background-color: antiquewhite;">
+         <h1>....Begginer Survey Form.....</h1><br><br>
+        <fieldset>
+            <legend><strong><i style="font-size: 20px;">Personal Details</i></strong></legend>
+            <label for="name">Name:
+                <input type="text" name="name" id="name" placeholder="Enter your name.."><br><br>
+                
+            <label for="add">Address:
+                <input type="text" name="address" id="add" placeholder="Enter your Address.."><br><br>
+            <label for="email">Email:
+                <input type="email" name="email" id="email" placeholder="Enter your Email.."><br><br>
+            <label for="number">Number:
+                <input type="tel" name="number" id="number" placeholder="Enter your Number..">  </label><br><br>
+                <label for="gender">Please select your gender: <br> </label>
+                <label for="">
+                  <input type="radio" name="male" id="male"> Male </label> <br>
+                   <label for="female">
+                   <input type="radio" name="male" id="female"> Female</label> <br>
+                   <label for="nb">
+                   <input type="radio" name="male" id="nb" >Non-binary </label> <br>
+                   <label for="pnb">
+                   <input type="radio" name="male" id="pnb">Prefer not to say </label> <br>
+               
+        </fieldset><br>
+        <fieldset>
+            <legend><strong><i style="font-size: 20px;">Additional Information</i></legend>
+            <label for="info">Enter Your Background Information <br>
+                <textarea name="information" id="info" placeholder="Enter Your Background Information"></textarea>
+            </label>
+            
+        </fieldset>
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
