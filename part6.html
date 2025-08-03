@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+            background-color: antiquewhite;
+
+        }
+        header{
+            height: 700px;
+            width: 100%;
+            /* border: 2px solid #000; */
+            /* background-color: antiquewhite; */
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            /* border: 5px solid green; */
+
+            position: relative;
+        }
+        nav .logo{
+            /* border: 2px solid #000; */
+            display: inline-block;
+            padding: 20px ;
+
+            font-size: 24px;
+            font-weight: 800;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+            
+            position: absolute;
+            left: 50px;
+            top: 16px;
+
+        }
+        nav .links{
+            /* border: 2px solid #000; */
+            display: inline-block;
+
+            position: absolute;
+            right: 50px;
+
+            padding: 20px ;
+            font-size: 24px;
+        }
+        a{
+            text-decoration: none;
+            padding: 20px;
+        }
+        .btn{
+            padding: 8px 25px;
+            border-radius: 50px;
+            /* border: none; */
+            background-color: cadetblue;
+            color: #fff;
+            font-size: 16px;
+
+            border: 2px solid transparent;
+            font-weight: 500;
+        }
+        .btn:hover{
+            background: transparent;
+            border: 2px solid cadetblue;
+            color: cadetblue;
+        }
+        main{
+            width: 100%;
+            height: 620px;
+            /* border: 5px solid red; */
+
+            display: flex;
+        }
+        main div{
+            width: 50%;
+            height: 100%;
+            /* background-color: cornflowerblue; */
+            /* border: 2px solid #777777; */
+        }
+        main .content{
+            padding: 55px;
+        }
+        main .content h1{
+            font-size: 75px;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+        h2{
+            font-size: 61px;
+            text-transform: uppercase;
+            margin-top: 3px;
+
+        }
+        main .content p{
+            font-size: 18px;
+            font-variant: small-caps;
+            text-align: left;
+
+            /* background-color: aquamarine; */
+            width: 65%;
+
+            margin-top: 18px;
+            margin-bottom: 18px;
+        }
+        main .hero_image img{
+            height: 90%;
+            width: 90%;
+
+            margin-top: 8%;
+        }
+
+        /* ##### Services section start ######## */
+
+        section{
+            width: 100%;
+            height: 750px;
+
+            margin-top: 12%;
+
+            text-align: center;
+        }
+
+        .card{
+            width: 100%;
+            height: 350px;
+            
+            display: flex;
+            gap: 3%;
+
+            padding-left: 22px;
+
+            margin-top: 5%;
+        }
+        .box{
+            width: 22%;
+            height: 100%;
+
+            background-color: rgb(255, 255, 255);
+            border: 2px solid #ccc;
+
+            text-align: center;
+
+            padding: 20px;
+        }
+        .box img{
+            width: 80px;
+            height: 80px;
+
+            margin-top: 5%;
+
+            border-radius: 5px;
+        }
+        .box h3{
+            margin-top: 5%;
+        }
+        .box p{
+            margin-top: 5%;
+            margin-left: 10%;
+
+            width: 80%;
+
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header start -->
+    <header>
+        <nav>
+            <div class="logo">LOGO.</div>
+
+            <div class="links">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">CONTACT</a>
+                <a href="">MESSAGE</a>
+
+                <button class="btn">Get Started</button>
+            </div>
+        </nav>
+
+        <main>
+            <div class="content">
+                <h1>Web <br> Developer</h1>
+                <h2>LANDING page</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquid consequatur saepe repellendus aspernatur voluptates illo optio doloribus corrupti alias consequuntur possimus, cumque eum aut repudiandae, reprehenderit facilis excepturi quos.</p>
+
+                <button class="btn">Learn More</button>
+            </div>
+
+            <div class="hero_image">
+                <img src="https://images.unsplash.com/vector-1738237558973-9844e4ebee15?q=80&w=1047&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+        </main>
+    </header>
+
+    <!-- Header end -->
+
+    <!--Services section start -->
+
+    <section>
+        <h2>Services</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum error necessitatibus sunt commodi, ab ex obcaecati tempora perferendis molestias dolorem.</p>
+
+        <div class="card">
+            
+            <div class="box">
+                <img src="https://plus.unsplash.com/premium_vector-1708168961388-d67cf0919a3e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>HEADING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis facere magni ut voluptates! Maiores error possimus aliquid blanditiis? Accusantium nam placeat unde molestias aperiam temporibus dolor! Libero, at veniam.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://plus.unsplash.com/premium_vector-1708168961388-d67cf0919a3e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>HEADING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis facere magni ut voluptates! Maiores error possimus aliquid blanditiis? Accusantium nam placeat unde molestias aperiam temporibus dolor! Libero, at veniam.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://plus.unsplash.com/premium_vector-1708168961388-d67cf0919a3e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>HEADING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis facere magni ut voluptates! Maiores error possimus aliquid blanditiis? Accusantium nam placeat unde molestias aperiam temporibus dolor! Libero, at veniam.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://plus.unsplash.com/premium_vector-1708168961388-d67cf0919a3e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>HEADING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis facere magni ut voluptates! Maiores error possimus aliquid blanditiis? Accusantium nam placeat unde molestias aperiam temporibus dolor! Libero, at veniam.</p>
+            </div>
+           
+        </div>
+    </section>
+
+
+   <!--Services section start -->
+
+
+</body>
+</html>
